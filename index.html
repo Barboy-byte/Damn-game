@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Tap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="start-screen" class="screen active">
+        <h1>Shadow Tap</h1>
+        <p>Tap the glowing circles before they fade!</p>
+        <button id="start-btn">Start Game</button>
+        <button id="sound-toggle">Sound: Off</button>
+    </div>
+    <div id="game-screen" class="screen">
+        <div id="hud">
+            <div id="score">Score: 0</div>
+            <div id="lives">Lives: 3</div>
+        </div>
+        <div id="game-area"></div>
+    </div>
+    <div id="game-over-screen" class="screen">
+        <h2>Game Over</h2>
+        <p id="final-score">Final Score: 0</p>
+        <button id="restart-btn">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
